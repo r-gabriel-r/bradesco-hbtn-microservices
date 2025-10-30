@@ -1,0 +1,18 @@
+O que é microsserviços ?
+São serviços que compõe uma aplicação maior e que isoladamente executa uma função bem delimitada e específica. Por exemplo, um microsserviço
+de consulta de cidades do Brasil.
+
+Visão geral da arquitetura Monolítica e de Microsserviços
+Na arquitetura monolítica todas as funções de uma aplicação estão contidas em um único programa e geralmente utiliza 
+um único banco de dados.
+Já na arquitetura de microsserviços, as funcionalidades da aplicação ficam distribuídas em diversos serviços, sendo que uma das características
+deles é a independencia, por exemplo, cada um possui sua base dados, e o baixo acomplamento, uma alteração em um serviço não deve afetar as outras
+partes
+
+Os benefícios da arquitetura de microsserviços - Cite 3 exemplos
+Facilita a manutenção, pois alterações em um microsserviço não deve afetar os outros.
+Escalabilidade. É possível aumentar e diminuir os recursos somente do microsserviço desejado, não é preciso escalar toda a aplicação, como é o caso dos monolitos.
+Diversidade de tecnologia. Podemos ter serviços em Java e em .Net
+
+Quais são os tipos de comunicação entre os microsserviços ?
+HTTP, filas e eventos
